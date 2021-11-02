@@ -8,6 +8,8 @@ A security react quill editor, `react-quill` is out of date, it's time to retire
 --- | --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
+## Install
+
 Using npm:
 
 ```bash

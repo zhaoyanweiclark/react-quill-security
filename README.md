@@ -8,6 +8,7 @@ A security react quill editor, `react-quill` is out of date, it's time to retire
 --- | --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
+
 ## Install
 
 Using npm:
@@ -45,4 +46,4 @@ export default App = props => {
 
 ## License
 
-[BSD 3-clause](LICENSE)
+BSD 3-clause

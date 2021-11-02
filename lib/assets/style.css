@@ -1,0 +1,11 @@
+.react-confirm-alert-overlay.react-quill-security-confirm {
+  padding: 120px 0px;
+  align-items: start;
+}
+.ql-container {
+  overflow: auto;
+  border-radius: 0px 0px 6px 6px;
+}
+.ql-toolbar {
+  border-radius: 6px 6px 0px 0px;
+}

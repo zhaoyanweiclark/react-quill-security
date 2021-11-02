@@ -1,0 +1,33 @@
+{
+  "name": "react-quill-security",
+  "version": "0.1.0",
+  "description": "A security, high availability and high performance react library of quill rich text editor",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "zhaoyanweiclark",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel ./lib --out-dir dist --copy-files"
+  },
+  "keywords": [
+    "Rich Editor",
+    "Quill",
+    "React"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "idb-keyval": "^6.0.3",
+    "quill": "^1.3.7",
+    "react-confirm-alert": "^2.7.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
+  }
+}

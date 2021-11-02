@@ -9,3 +9,8 @@
 .ql-toolbar {
   border-radius: 6px 6px 0px 0px;
 }
+.ql-tooltip.ql-editing {
+  left: 10px !important;
+  right: 10px !important;
+  min-width: 400px;
+}

@@ -8,8 +8,6 @@ A security react quill editor, `react-quill` is out of date, it's time to retire
 --- | --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
-[![Browser Matrix](https://saucelabs.com/open_sauce/build_matrix/axios.svg)](https://saucelabs.com/u/axios)
-
 Using npm:
 
 ```bash
@@ -28,7 +26,9 @@ import QuillSecurity from 'react-quill-security';
 
 export default App = props => {
 
-    const initValue = useRef({"ops":[{"insert":"React Quill Security Working!\n"}]});
+    const initValue = useRef({
+      "ops":[{"insert":"React Quill Security Working!\n"}]
+    });
     const [value, setValue] = useState(initValue.current);
 
     return (

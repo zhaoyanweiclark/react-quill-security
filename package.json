@@ -1,6 +1,6 @@
 {
   "name": "react-quill-security",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A security, high availability and high performance react library of quill rich text editor",
   "main": "dist/index.js",
   "license": "BSD 3-clause",
